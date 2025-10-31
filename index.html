@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+        <h1>Youtube</h1>
+        <section>
+            <h2 class="blind">Youtube Contents</h2>
+            <div class="search_bar">
+                <input type="text" name="search" id="search" placeholder="search" autocomplete="off"/>
+                <label for="search">
+                    <a href="#none" class="btn_search">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYmid meet" focusable="false" class="ico-zoom">
+                            <path clip-rule="evenodd" d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z"></path>
+                        </svg>
+                    </a>
+                </label>
+            </div>
+            <div class="contents list">
+                <figure>
+                    <a href="#none" class="btn_view">
+                        <picture>
+                            <source srcset="./assets/sample.webp" type="image/webp">
+                            <source srcset="./assets/sample.jpg" type="image/jpg">
+                            <img src="./assets/sample.jpg" alt="sample">
+                        </picture>
+                    </a>
+                    <figcaption>
+                        <i><img src="./assets/id.png" alt="icon"></i>
+                        <span class="description">
+                            <strong>Lorem Ipsum Powerful movie</strong>
+                            <em>Cold Water</em>
+                            <span>1.1M views, 4 Months ago</span>
+                        </span>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
